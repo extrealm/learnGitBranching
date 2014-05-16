@@ -71,7 +71,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'es_AR': 'Una breve introducción a la mayoría de los comandos de git',
       'zh_CN': '循序渐进介绍git主要命令',
       'zh_TW': '循序漸進地介绍 git 主要命令',
-      'ko': '브랜치 관련 주요 git 명령어를 깔끔하게 알려드립니다'
+      'ko': '주요 git 명령어를 간단하게 알아봅니다'
     }
   },
   rampup: {
@@ -79,6 +79,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Ramping Up',
       'de_DE': 'Aufstieg',
       'ja': '次のレベルに進もう',
+      'ko': '한단계 더 나아가기',
       'fr_FR': 'Montée en puissance',
       'es_AR': 'Acelerando',
       'zh_CN': '进阶篇',
@@ -88,6 +89,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'The next serving of 100% git awesomes-ness. Hope you\'re hungry',
       'de_DE': 'Eine Portion Git-Wahnsinn zum Thema Navigation',
       'ja': '更にgitの素晴らしさを堪能しよう',
+      'ko': 'git 의 감동을 느끼기 위한 두번째 식사. 여전히 배고프시죠',
       'fr_FR' : 'Le prochain service git 100% excellence. J\'espère que vous êtes affamés',
       'es_AR': 'La próxima porción de 100% maravillas git. Espero que estés hambriento',
       'zh_CN': '接下来是git的超赞特性。迫不及待了吧！',
@@ -99,6 +101,7 @@ var sequenceInfo = exports.sequenceInfo = {
     displayName: {
       'en_US': 'Push & Pull -- Git Remotes!',
       'de_DE': 'Push & Pull -- entfernte Repositorys',
+      'ko': 'Push & Pull -- 원격 작업!',
       'es_AR': 'Push & Pull -- Git Remotes!',
       'zh_CN': 'Push & Pull -- Git Remotes!',
       'zh_TW': 'Push & Pull -- Git Remotes!'
@@ -107,6 +110,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Time to share your 1\'s and 0\'s kids; coding just got social',
       'de_DE': 'Zeit Eure 1en und 0en zu teilen; Coding mit sozialer Komponente',
       'es_AR': 'Hora de compartir sus 1\'s y 0\'s, chicos; programar se volvió social!',
+      'ko': '자신이 작업한 1과 0을 공유할 시간; 코딩 즉시 소셜이 됩니다.',
       'zh_CN': '是时候分享你的编码了',
       'zh_TW': '是時候分享你的程式碼了'
     }
@@ -116,6 +120,7 @@ var sequenceInfo = exports.sequenceInfo = {
     displayName: {
       'en_US': 'To Origin And Beyond -- Advanced Git Remotes!',
       'de_DE': 'Bis zum origin und noch weiter',
+      'ko': '기원과 그 너머 -- 고급 Git 원격 작업!',
       'es_AR': 'Hasta el origin y más allá -- Git Remotes avanzado!',
       'zh_CN': '关于origin 和 其它仓库 -- Git Gemotes 高级命令',
       'zh_TW': '關於 origin 和其它 repo，git remote 的進階指令'
@@ -123,6 +128,7 @@ var sequenceInfo = exports.sequenceInfo = {
     about: {
       'en_US': 'And you thought being a benevolent dictator would be fun...',
       'es_AR': 'Y pensabas que ser un dictador benévolo sería divertido...',
+      'ko': '그리고, 자비로운 독재자가 되는 것은 즐겁겠죠...',
       'zh_CN': '做一名仁慈的独裁者会很有趣..',
       'zh_TW': '而且你會覺得做一個仁慈的獨裁者會很有趣...',
       'de_DE': 'Git Remotes für Fortgeschrittene'
@@ -133,21 +139,21 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'Moving Work Around',
       'de_DE': 'Code Umherschieben',
       'es_AR': 'Moviendo el trabajo por ahí',
+      'ko': '돌아다니며 일하기',
       // INTL out of sync :(
       'ja': 'Rebaseをモノにする',
       'fr_FR': 'Maîtrise Rebase, Luke!',
       'zh_CN': '精通Rebase！',
       'zh_TW': '精通 rebase！',
-      'ko': '리베이스 완전정복!'
     },
     about: {
       'en_US': 'Get comfortable with modifying the source tree',
       'de_DE': 'Gewöhn dich daran, den Git-Baum zu verändern',
       'es_AR': 'Ponete cómodo con modificar el directorio fuente',
+      'ko': '소스 트리를 수정해보며 익숙해지기',
       // INTL out of sync :(
       'ja': '話題のrebaseってどんなものだろう？って人にオススメ',
       'fr_FR': 'Qu\'est-ce que ce rebase dont tout le monde parle ? Découvrez-le !',
-      'ko': '그 좋다고들 말하는 rebase에 대해 알아봅시다!',
       'zh_CN': '大家都在说的rebase究竟是神马？看看吧！',
       'zh_TW': '大家都在說的 rebase 到底是什麼阿？來看看吧！'
     }
@@ -180,6 +186,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'de_DE': 'Themen für Fortgeschrittene',
       'fr_FR': 'Sujets Avancés',
       'es_AR': 'Temas avanzados',
+      'ko': '고급 주제',
       'zh_CN': '高级主题',
       'zh_TW': '進階主題'
     },
@@ -187,6 +194,7 @@ var sequenceInfo = exports.sequenceInfo = {
       'en_US': 'For the truly brave!',
       'de_DE': '... die nie ein Mensch zuvor gesehen hat.',
       'fr_FR': 'Pour les plus courageux !',
+      'ko': '진정한 모험가를 위해',
       'es_AR': '¡Para los verdaderos valientes!',
       'zh_CN': '只为真正的勇士！',
       'zh_TW': '來成為真正的強者吧！'

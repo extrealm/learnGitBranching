@@ -9,6 +9,7 @@ exports.strings = {
     'zh_TW': '我的天啊！您解開了最後一關，太強了！',
     'es_AR': '¡Ea! Terminaste el último nivel, ¡genial!',
     'fr_FR': 'Félicitations, vous avez réussi le dernier niveau !',
+    'ko': '이야~ 마지막 레벨을 클리어 하셨습니다. 대단해요!!',
     'ru': 'Вау! Вы прошли последний уровень, отлично!'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -33,6 +34,7 @@ exports.strings = {
     'zh_TW': '太強了，您的答案符合我們的預期甚至更好！',
     'es_AR': '¡Fabuloso! Igualaste o superaste nuestra solución.',
     'fr_FR': 'Fabuleux ! Votre solution a égalé ou surpassé notre solution.',
+    'ko': '대단합니다. 모범 답안과 같거나 더 잘 하셨습니다.',
     'ru': 'Отлично! Ваше решение соответсвует или превосходит наше.'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -45,6 +47,7 @@ exports.strings = {
     'zh_TW': '試試看您是否能在 {best} 步内搞定 :D',
     'es_AR': 'Fijate si podés bajarlo a usar sólo {best} comandos :D',
     'fr_FR': 'Voyons si vous pouvez descendre à {best} :D',
+    'ko': '더 간단한 방법으로 작업할 수 있는지도 살펴보세요.',
     'ru': 'Попробуйте, может вы сможете уложиться в {best} : D'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -54,6 +57,7 @@ exports.strings = {
     'zh_TW': '注意！ Mercurial 會積極地做垃圾收集，而且會因此把你的 tree 給縮小。',
     'es_AR': '¡Cuidado! Mercurial hace garbage collection agresivamente y necesita eliminar tu árbol',
     'de_DE': 'Achtung! Mercurial macht aggressive Garbage Collection und muss daher deinen Baum reduzieren',
+    'ko': '주의! Mercurial 은 공격적인 가비지 컬렉션을 수행하기 때문에 트리를 지워야 합니다.',
     'ru': 'Внимание! Mercurial использует агрессивный сборщик мусора и обрезает ваше дерево'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -63,6 +67,7 @@ exports.strings = {
     'zh_TW': '對於這個 app 來說，-A 選項並不是必須的，只需要 commit 就好！',
     'es_AR': 'La opción -A no es necesaria para esta aplicación, simplemente hacé commit',
     'de_DE': 'Die Option -A wird in dieser Anwendung nicht benötigt, committe einfach!',
+    'ko': '이곳에서는 -A 옵션을 사용할 필요는 없습니다. 바로 커밋하겠습니다.',
     'ru': 'Опция -A не требуется для этого приложения, просто сделайте коммит.'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -71,6 +76,7 @@ exports.strings = {
     'en_US': 'There is no status command for this app, since there is no staging of files. Try hg summary instead',
     'es_AR': 'No hay un comando status para esta aplicación, dado que no hay archivos que indexar. Probá hg summary, en cambio',
     'de_DE': 'Es gibt keinen Befehl status in dieser Anwendung, da es kein Staging von Dateien gibt. Probier stattdessen hg summary',
+    'ko': '이 앱은 status 명령은 staging 파일이 없기 때문에 지원하지 않습니다. 대신 hg summary 명령을 사용해보세요.',
     'ru': 'Команда status не поддерживается в этом приложении, так как здесь нет файлов. Попробуйте выполнить hg summary'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -98,6 +104,7 @@ exports.strings = {
     'zh_TW': '分離 Head！',
     'es_AR': '¡Detached HEAD!',
     'fr_FR': 'head détaché !',
+    'ko'   : '분리된 HEAD 입니다!',
     'ru': 'Отделенный HEAD'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -109,6 +116,7 @@ exports.strings = {
     'zh_TW': '切換到 branch {branch}',
     'es_AR': 'En la rama {branch}',
     'fr_FR': 'Sur la branche {branch}',
+    'ko'   : '브랜치 {branch} 에 있습니다',
     'ru': 'В ветке {branch}'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -120,6 +128,7 @@ exports.strings = {
     'zh_TW': '準備 commit！（在這個 demo 裡面可以一直 commit）',
     'es_AR': '¡Listo para commitear! (como siempre en esta demo ;-) )',
     'fr_FR': 'Prêt à commit ! (comme toujours dans cette démo)',
+    'ko'   : '커밋할 수 있습니다! (이 예제에서는 항상 그렇죠)',
     'ru': 'Готово к коммиту! (как и всегда в этом демо)'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -132,6 +141,7 @@ exports.strings = {
     'zh_TW': '快速 commit。上啊熊！',
     'es_AR': 'Otro commit más, y van...',
     'fr_FR': 'Commit rapide. NoMaN Sux!',
+    'ko'   : '잽싸게 커밋. 롯데 자이언츠 화이팅!',
     'ru': 'Быстрый коммит. А надо!'
   },
   'git-error-origin-fetch-uptodate': {
@@ -141,6 +151,7 @@ exports.strings = {
     'fr_FR': 'Déjà à jour',
     'es_AR': 'Estás en la versión más reciente',
     'zh_TW': '已經是最新的了',
+    'ko'   : '이미 최신 입니다.',
     'ru': 'Уже обновлено!'
   },
   'git-error-origin-fetch-no-ff': {
@@ -149,6 +160,7 @@ exports.strings = {
     'de_DE': 'Dein origin Branch ist nicht auf dem Stand des Remote Branch und fetch kann nicht ausgeführt werden',
     'es_AR': 'Tu rama origin está desincronizada con la rama remota, por lo que no se puede hacer el fetch',
     'fr_FR': 'Votre branche origin n\'est plus synchronisée avec la branche distante et fetch ne peut pas être appliqué. Essayez avec l\'option --force',
+    'ko'   : 'origin 브랜치가 원격 브랜치와 맞지 않아서 fetch 명령이 수행되지 않았습니다 .',
     'ru': 'Ваша origin ветка не синхронизирована с удаленной веткой, невозможно выполнить fetch'
   },
   'git-error-origin-push-no-ff': {
@@ -157,6 +169,7 @@ exports.strings = {
     'de_DE': 'Das entfernte Repository weicht von deinem lokalen Repository ab, daher können deine Änderungen nicht mit einem einfachen fast forward hochgeladen werden (und daher ist dein push abgelehnt worden). Bitte pull erst die neuen Änderungen in das lokale Repository, integriere sie in den Branch und versuch es nochmal. Das kannst du mit git pull oder git pull --rebase machen',
     'es_AR': 'El repositorio remoto divergió de tu repositorio local, por lo que subir tus cambios no es un simple fast forward (y por eso se rechazó tu push). Por favor, hacé pull de los nuevos cambios en el repositorio remoto, incorporalos a esta rama y probá de nuevo. Podés hacerlo con git pull o git pull --rebase',
     'fr_FR': 'Le dépôt distant a divergé de votre référentiel local, donc l\'envoi de vos modifications n\'est pas en simple avance rapide (et donc votre envoi a été rejeté). Veuillez récupérer les nouveaux changements depuis le dépôt distant, les intégrer dans cette branche, et essayez à nouveau. Vous pouvez le faire avec git pull ou git pull --rebase',
+    'ko'   : '원격 저장소가 현재 로컬 저장소에 비해 갈래가 생겼브니다. 그래서 변경사항은 단순 진행으로 처리될 수가 없어서 요청하신 push는 거부되었습니다. 원격 저장소의 새로운 변경 사항을 당겨(pull) 받아 변경사항을 이 브랜치로 모아 적용후 다시 시도해주세요. 다음과 같이 git pull 이나 git pull --rebase 명령을 쓰시면 됩니다.',
     'ru:': 'Удаленный репозиторий разошелся с вашим локальным репозиторием, поэтому выгрузка ваших изменений не может быть в режиме fast forward (и следовательно ваш push будет отклонён). Пожалуйста, удалите изменения в удаленном репозитории которые, объедините их в эту ветку и попробуйте еще раз. Вы можете сделать это с помощью git pull или git pull --rebase'
   },
   'git-error-remote-branch': {
@@ -165,6 +178,7 @@ exports.strings = {
     'de_DE': 'Du kannst diesen Befehl nicht auf einem Remote Branch ausführen',
     'es_AR': 'No podés ejecutar ese comando en una rama remota',
     'fr_FR': 'Vous ne pouvez exécuter cette commande sur une branche distante',
+    'ko'   : '해당 명령은 원격 브랜치에 대해서는 실행할 수 없습니다.',
     'ru': 'Вы не можете выполнить эту команду на удаленной ветке'
   },
   'git-error-origin-required': {
@@ -173,6 +187,7 @@ exports.strings = {
     'de_DE': 'Für diesen Befehl wird origin benötigt',
     'es_AR': 'Necesitás un origen para ese comando',
     'fr_FR': 'Une origine est requise pour cette commande',
+    'ko'   : '이 명령은 origin 이 필요합니다.',
     'ru': 'Origin требуется для этой команды'
   },
   'git-error-origin-exists': {
@@ -181,6 +196,7 @@ exports.strings = {
     'de_DE': 'origin existiert bereits! Du kannst es nicht nochmal anlegen',
     'es_AR': '¡Ya existe el origen! No podés crear uno nuevo',
     'fr_FR': 'Une origine existe déjà ! Vous ne pouvez pas en créer une nouvelle',
+    'ko'   : 'origin 이 이미 존재합니다. 새로이 만들 수 없습니다',
     'ru': 'Origin уже существует! Невозможно создать еще один'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -193,6 +209,7 @@ exports.strings = {
     'zh_TW': '你不能刪除 master branch，或者你當前所在的 branch，或者其它連 branch 都不是的東西。',
     'es_AR': 'No podés borrar la rama master, la rama en la que estás, o cosas que no son ramas',
     'fr_FR': 'Vous ne pouvez supprimer la branche master, la branche sur laquelle vous êtes, ou ce qui n\'est pas une branche',
+    'ko'   : 'master 브랜치, 현재 작업중인 브랜치, 혹은 브랜치가 아닌 것들은 삭제할 수 없습니다. .',
     'ru' : 'Невозможно удалить ветку master, ветку на которой вы сейчас и то что не является веткой'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -204,6 +221,7 @@ exports.strings = {
     'zh_TW': '將 {target} 併入 {current}',
     'es_AR': 'Mergear {target} a {current}',
     'fr_FR': 'Merge de {target} dans {current}',
+    'ko'   : '타겟 {target} 을 {current} 로 병합합니다.',
     'ru': 'Слияние {target} в {current}'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -215,6 +233,7 @@ exports.strings = {
     'zh_TW': '沒有需要 rebase 的 commit！每個都是一個 merge commit 或者修改已經被寫入了',
     'es_AR': '¡No hay commits para rebasear! Son todos commits de merge o cambios ya aplicados',
     'fr_FR': 'Aucune commit à rebaser ! Tout est soit un commit de merge, soit des modifications déjà appliquées',
+    'ko'   : 'rebase를 할 커밋이 없습니다! 전부 merge 커밋이거나 변경사항이 이미 적용된 상태입니다.',
     'ru': 'Нет коммитов для rebase! Все в коммите слияния или изменения уже применены'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -226,6 +245,7 @@ exports.strings = {
     'zh_TW': '沒什麼事情要做...',
     'es_AR': 'Nada para hacer...',
     'fr_FR': 'Rien à effectuer…',
+    'ko'   : '작업할 것이 없음...',
     'ru': 'Нечего выполнять...'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -236,6 +256,7 @@ exports.strings = {
     'zh_CN': '快速前进……',
     'zh_TW': '快速前進...',
     'es_AR': 'Fast forwardeando...',
+    'ko'   : '앞으로 빨리감기...',
     'fr_FR': 'En avance rapide…'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -247,6 +268,7 @@ exports.strings = {
     'zh_TW': 'branch 已經是最新啦',
     'es_AR': 'Rama actualmente actualizada',
     'fr_FR': 'Branche déjà à jour',
+    'ko'   : '브랜치가 이미 최신상태 입니다.',
     'ru': 'Ветка уже обновлена'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -258,6 +280,7 @@ exports.strings = {
     'zh_TW': '索引 {ref} 不存在，或者找不到。',
     'es_AR': 'La referencia {ref} no existe o es desconocida',
     'fr_FR': 'La référence {ref} n\'existe pas ou est inconnue',
+    'ko   ': '참조 {ref} 는 존재하지 않거나 알수 없는 상태입니다.',
     'ru': 'Ссылка {ref} не существует или неизвестна'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -269,6 +292,7 @@ exports.strings = {
     'zh_TW': 'commit {commit} 並沒有 {match}',
     'es_AR': 'El commit {commit} no tiene un {match}',
     'fr_FR': 'Le commit {commit} n\'a pas de correspondance {match}',
+    'ko'   : '커밋 {commit} 은 {match} 를 포함하지 않습니다..',
     'ru': 'Коммит {commit} не содержит {match}'
   },
   ///////////////////////////////////////////////////////////////////////////
@@ -278,6 +302,7 @@ exports.strings = {
     'de_DE': 'Achtung! Detached HEAD Zustand',
     'zh_CN': '警告！脑袋搬家（Detached HEAD）状态',
     'zh_TW': '注意喔！現在的狀態是分離 Head',
+    'ko'   : '주의!! HEAD가 분리된 상태입니다.',
     'es_AR': '¡Cuidado! Modo de detached HEAD',
     'fr_FR': 'Attention ! HEAD est détaché'
   },
@@ -288,6 +313,7 @@ exports.strings = {
     'de_DE': 'In dieser Demo müssen keine Dateien hinzugefügt werden',
     'zh_CN': '此演示中不需要添加文件',
     'zh_TW': '此 demo 中不需要再加入檔案',
+    'ko'   : '이곳 데모에서는 파일을 추가할 필요가 없습니다.',
     'es_AR': 'No es necesario hacer add a los archivos en esta demo',
     'fr_FR': 'Aucun besoin d\'ajouter des fichiers dans cette démo'
   },
@@ -298,6 +324,7 @@ exports.strings = {
     'de_DE': 'Die angegebenen Optionen sind inkompatibel oder falsch',
     'zh_CN': '你所指定的参数不兼容或者不准确',
     'zh_TW': '您指定了不相容或錯誤的選項',
+    'ko'   : '지정하신 옵션들은 호환되지 않거나 잘못되었습니다.',
     'es_AR': 'Las opciones que especificaste son incompatibles o incorrectas',
     'fr_FR': 'Les options que vous avez spécifiées sont incompatibles ou incorrectes'
   },
@@ -308,6 +335,7 @@ exports.strings = {
     'de_DE': 'Der Commit {commit} existiert bereit, Abbruch!',
     'zh_CN': '提交 {commit} 已经存在于你的改动集里，正在中止！',
     'zh_TW': 'commit {commit} 已經在你的修改的集合裡，正在停止！',
+    'ko'   : '커밋 {commit}은 이미 여러분의 변경사항에 존재하기 때문에 취소합니다.',
     'es_AR': 'El commit {commit} ya existe en tus cambios, ¡abortando!',
     'fr_FR': 'Le commit {commit} existe déjà dans votre ensemble de modifications, opération avortée !'
   },
@@ -318,6 +346,7 @@ exports.strings = {
     'de_DE': 'Kann im Detached Head Zustand kein reset ausführen! Bitte checkout zum Bewegen benutzen',
     'zh_CN': '不能在分离的 HEAD 里重置！用 checkout 吧',
     'zh_TW': '不能在分離 HEAD 的狀態中重來！用 checkout 來移動吧',
+    'ko'   : '분리된 HEAD 에서는 reset 을 할 수 없습니다. 이동을 위해서는 checkout 하세요.',
     'es_AR': 'No podés hacer reset en el modo detached. Usá checkout si querés moverte',
     'fr_FR': 'On ne peut pas effectuer un reset quand head est détaché. Utilisez checkout pour déplacer'
   },
@@ -328,6 +357,7 @@ exports.strings = {
     'de_DE': 'Das Standardverhalten in dieser Demo ist --hard, du kannst die Option auch weglassen!',
     'zh_CN': '默认的行为是 --hard 硬重置，尽管省略掉那个选项吧！',
     'zh_TW': '預設的行為是 --hard reset，儘量省略掉那個選項吧！',
+    'ko'   : '기본 동작은 --hard reset 이기 때문에 옵션을 빼고 하셔도 됩니다.',
     'es_AR': 'El comportamiento default es un --hard reset, sentite libre de omitir esa opción!',
     'fr_FR': 'Le comportement par défaut est un --hard reset, soyez libre d\'omettre cette option !'
   },
@@ -339,6 +369,7 @@ exports.strings = {
     'de_DE': 'In dieser Demo gibt es kein Hinzufügen / Vormerken von Dateien, dieser Befehl ist daher ungültig!',
     'zh_CN': '没有添加、缓存文件的必要，所以改选项或者命令是不合法的。',
     'zh_TW': '沒有加入、或者暫存 (staging) 文件的必要，所以改選項或者命令是不合法的。',
+    'ko'   : '이곳에서는 파일추가나 스테이징의 개념을 쓰지 않기에, 해당 옵션이나 명령은 쓸 수 없습니다.',
     'es_AR': 'No existe el concepto de agregar/indexar cambios, así que esa opción o comando es inválido',
     'fr_FR': 'Il n\'y a pas le concept d\'ajouter / mettre en staging, donc cette option ou commande est invalide'
   },
@@ -359,6 +390,7 @@ exports.strings = {
     'de_DE': 'Ich benötige maximal {upper} Argument(e) für {what}',
     'zh_CN': '{what} 期望最多 {upper} 个参数',
     'zh_TW': '{what} 期望最多 {upper} 個參數',
+    'ko'   : '{what}를 위해서는 최대 {upper}개 이내의 인자를 받습니다',
     'es_AR': 'Espero como máximo {upper} parámetros para {what}',
     'fr_FR': 'J\'attends au plus {upper} argument(s) pour {what}'
   },
@@ -369,6 +401,7 @@ exports.strings = {
     'de_DE': 'Ich benötige mindestens {lower} Argument(e) für {what}',
     'zh_CN': '{what} 期望最少 {lower} 个参数',
     'zh_TW': '{what} 期望最少 {lower} 個參數',
+    'ko'   : '{what}를 위해서는 최소한 {lower}개의 인자가 필요합니다',
     'es_AR': 'Espero al menos {lower} parámetros para {what}',
     'fr_FR': 'J\'attends au moins {upper} argument(s) pour {what}'
   },
@@ -379,6 +412,7 @@ exports.strings = {
     'de_DE': 'Dieser Befehl akzeptiert keine allgemeinen Argumente',
     'zh_CN': '该命令不接收参数',
     'zh_TW': '該指令不接受一般參數',
+    'ko'   : '해당 커맨드는 일반적인 인지가 필요하지 않습니다.',
     'es_AR': 'Ese comando no acepta parámetros comunes',
     'fr_FR': 'Cette commande n\'accepte aucun argument général'
   },
@@ -389,6 +423,7 @@ exports.strings = {
     'de_DE': 'Kopiere die folgende Baum-Zeichenkette',
     'zh_CN': '拷贝下面的树字符串',
     'zh_TW': '複製下方的樹狀字串',
+    'ko'   : '아래의 트리 문자열을 복사하세요.',
     'es_AR': 'Copiá el código de acá abajo',
     'fr_FR': 'Copiez la chaîne d\'arbre ci-dessous'
   },
@@ -398,7 +433,7 @@ exports.strings = {
     'en_US': 'Learn Git Branching',
     'de_DE': 'Learn Git Branching',
     'ja': '日本語版リポジトリ',
-    'ko': 'Git 브랜치 배우기',
+    'ko'   : 'Git 브랜치 배우기',
     'zh_CN': '学习Git分支',
     'zh_TW': '學習 git 分支',
     'es_AR': 'Aprendé a Branchear en Git',
@@ -411,6 +446,7 @@ exports.strings = {
     'de_DE': 'Level auswählen',
     'zh_CN': '选择一关',
     'zh_TW': '選擇其中一關',
+    'ko'   : '단계를 고르세요',
     'es_AR': 'Seleccioná un nivel',
     'fr_FR': 'Choisissez un niveau'
   },
@@ -421,6 +457,7 @@ exports.strings = {
     'de_DE': 'Tut mir leid, aber aus Gründen der Darstellung müssen wir die Branch-Namen kurz halten. Dein Branch-Name wurde auf 9 Zeichen gekürzt und heißt daher jetzt "{branch}"',
     'zh_CN': '抱歉，为了显示的需要，我们需要一个短些的分支名称。您使用的将被截断到9个字符，即"{branch}"',
     'zh_TW': '抱歉，為了顯示的需要，我們需要一個短一點的 branch 名稱。您使用的將會被截斷到剩下9個字元，即"{branch}"',
+    'ko': '미안합니다. 출력을 위해 너무 긴 브랜치 이름은 쓸 수 없습니다. 입력하신 브랜치명은 9자 이내인 "{branch}"로 제한됩니다.',
     'es_AR': 'Perdón, necesitamos mantener los nombres de los branches cortos para visualizarlos. El nombre de tu rama se truncó a 9 caracteres, resultando en "{branch}"',
     'fr_FR': 'Désolé, nous devons garder les noms de branches courts pour la visualisation. Votre nom de branche a été tronqué à 9 caractères, devenant "{branch}"'
   },
@@ -431,6 +468,7 @@ exports.strings = {
     'de_DE': 'Der Branch-Name "{branch}" ist nicht erlaubt!',
     'zh_CN': '不能给分支起这个名字 "{branch}"',
     'zh_TW': '不能给 branch 起這個名字 "{branch}"',
+    'ko'   : '해당 브랜치 이름 "{branch}"는 쓸 수 없습니다!',
     'es_AR': 'El nombre "{branch}" no está permitido para los branches',
     'fr_FR': 'Ce nom de branche "{branch}" n\'est pas autorisé'
   },
@@ -438,6 +476,7 @@ exports.strings = {
   'bad-tag-name': {
     '__desc__': 'When the user enters a tag name thats not ok',
     'en_US': 'That tag name "{tag}" is not allowed!',
+    'ko'   : '해당 태그 이름 "{tag}" 은 쓸 수 없습니다!',
     'es_AR': 'El nombre "{tag}" no está permitido para los tags',
     'de_DE': 'Der Tag-Name "{tag}" ist nicht erlaubt!'
   },
@@ -445,6 +484,7 @@ exports.strings = {
   'option-not-supported': {
     '__desc__': 'When the user specifies an option that is not supported by our demo',
     'en_US': 'The option "{option}" is not supported!',
+    'ko'   : '옵션 "{option}" 은 지원되지 않습니다!',
     'de_DE': 'Die  Option "{option}" wird nicht unterstützt!',
     'zh_CN': '不支持选项 "{option}"',
     'zh_TW': '不支援的選項 "{option}"',
@@ -458,6 +498,7 @@ exports.strings = {
     'de_DE': 'git <Befehl> [<Argumente>]',
     'zh_CN': 'git <命令> [<参数>]',
     'zh_TW': 'git <指令> [<參數>]',
+    'ko'   : 'git <명령> [<인자>]',
     'es_AR': 'git <comando> [<parametros>]',
     'fr_FR': 'git <commande> [<arguments>]'
   },
@@ -468,6 +509,7 @@ exports.strings = {
     'de_DE': 'Unterstützte Befehle:',
     'zh_CN': '支持的命令有:',
     'zh_TW': '支援的指令有：',
+    'ko'   : '지원되는 명령:',
     'es_AR': 'Comandos soportados:',
     'fr_FR': 'Commandes supportées'
   },
@@ -478,6 +520,7 @@ exports.strings = {
     'de_DE': 'Benutzung:',
     'zh_CN': '使用:',
     'zh_TW': '用法:',
+    'ko': '사용법:',
     'es_AR': 'Uso:',
     'fr_FR': 'Utilisation :'
   },
@@ -488,6 +531,7 @@ exports.strings = {
     'de_DE': 'Git Version PCOTTLE.1.0.jbr',
     'zh_CN': 'Git 版本 PCOTTLE.1.0',
     'zh_TW': 'Git 版本 PCOTTLE.1.0',
+    'ko'   : 'Git 버전 PCOTTLE.1.0',
     'es_AR': 'Git Versión PCOTTLE.1.0',
     'fr_FR': 'Git version PCOTTLE.1.0'
   },
